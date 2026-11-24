@@ -1,0 +1,33 @@
+{
+ "recordings": 2500,
+ "refused": 2,
+ "word_count_differs": 0,
+ "sounds_wrong_vs_right": {
+  "tp": 1538,
+  "fp": 3707,
+  "fn": 393,
+  "tn": 34745,
+  "precision": 0.2932,
+  "recall": 0.7965,
+  "false_alarm_rate": 0.0964,
+  "f1": 0.4287
+ },
+ "sounds_not_right_vs_right": {
+  "tp": 3749,
+  "fp": 3707,
+  "fn": 5056,
+  "tn": 34745,
+  "precision": 0.5028,
+  "recall": 0.4258,
+  "false_alarm_rate": 0.0964,
+  "f1": 0.4611
+ },
+ "pearson": {
+  "sound": 0.4351,
+  "word": 0.4101,
+  "sentence_vs_accuracy": 0.5315,
+  "sentence_vs_total": 0.5491,
+  "sentence_with_speaking_rate_vs_accuracy": 0.6137,
+  "sentence_with_speaking_rate_vs_total": 0.6394
+ }
+}
