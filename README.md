@@ -96,3 +96,8 @@ A flap counts as a t or d, and a glottal stop as a t, as American English says t
   speechocean762: An open-source non-native English speech corpus for pronunciation assessment.
   Proc. Interspeech 2021. https://arxiv.org/abs/2104.01378
 - `data/test.jsonl` is derived from speechocean762, released under CC BY 4.0.
+
+## License
+
+The code and Spelly's answers are under the MIT License (see `LICENSE`). `data/test.jsonl` keeps the
+speechocean762 licence, CC BY 4.0.
